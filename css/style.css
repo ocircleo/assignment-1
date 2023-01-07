@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: work-sans;
+}
+
+@font-face {
+    font-family: work-sans;
+    src: url(../fonts/WorkSans.ttf);
+}
+
+header {
+    height: 806px;
+    width: 100%;
+    background: url("../images/banner/banner3.png") no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-title-container {
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: right;
+}
+
+.header-title-container h2 {
+    color: white;
+    font-size: 65px;
+    text-transform: capitalize;
+    font-weight: 900;
+    padding-bottom: 20px;
+
+}
+
+.header-title-container p {
+    color: white;
+    font-size: 16px;
+    padding-bottom: 20px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.header-title-container a {
+    background-color: white;
+    text-decoration: none;
+    color: #1768ff;
+    text-transform: capitalize;
+    font-weight: 700;
+    display: inline-block;
+    padding: 20px 25px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+/* ===== End of header ===== */
+.my-failure {
+    height: 724px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 40px;
+    margin-top: 70px;
+
+}
+
+.my-failure img {
+    height: auto;
+    width: 50%;
+}
+
+.my-failures-list {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.my-failures-list h2 {
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.my-failures-list p {
+    padding: 20px;
+    color: gray;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.my-failures-list ul li {
+    margin-left: 40px;
+    list-style: square;
+    padding-bottom: 10px;
+    font-size: 17px;
+    color: gray;
+    font-weight: 600;
+}
+
+/* =====  End of my failures ===== */
+.my-plan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 70%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.my-plan h2 {
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+.my-plan-item-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    gap: 30px;
+    justify-content: sp;
+}
+
+.my-plan-items {
+    height: auto;
+    width: 25%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.my-plan-items img {
+    padding: 20px 0;
+    width: 90px;
+}
+
+.my-plan-items h3 {
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 900;
+    padding: 10px 0;
+
+}
+
+.my-plan-items p {
+    font-weight: 700;
+    color: gray;
+    padding: 10px 0;
+}
+/* ====== End of my plan items ===== */
+.bg-blende-image{
+    height: 300px;
+    width: 70%;
+    margin: 0 auto;
+    border-radius:8px;
+    background:  url("../images/watch.png"),linear-gradient(120deg,rgb(1, 96, 172) 20%,rgba(255, 255, 255, 0));
+    background-size: cover;
+    background-blend-mode:soft-light;
+}
